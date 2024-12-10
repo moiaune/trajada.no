@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="utf8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trude Abelsen &amp; Jan Dahlen | trajada.no</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --color-red: #AB1D1B;
+            --color-paper: #ECDCC1;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            font-family: "Merriweather", serif;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            text-transform: uppercase;
+            font-size: 3rem;
+        }
+
+        header h1 span {
+            display: block;
+            font-size: 1rem;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .navbar {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 2rem;
+            padding: .5rem 1rem;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        .navbar nav {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+
+        .navbar nav a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin: 4rem 0 60px 0;
+            font-size: 3rem;
+            line-height: 1.5rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+        }
+
+        #pressemelding {
+            font-size: 1.1rem;
+        }
+
+        #pressemelding h2 {
+            text-align: left;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            line-height: 1.2;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            max-width: 800px;
+        }
+
+        .image-group img {
+            display: block;
+            margin: 20px auto 8px auto;
+            width: 100%;
+            border: 10px solid black;
+        }
+
+        .image-group span {
+            font-size: .9rem;
+        }
+
+        .audio-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            max-width: 800px;
+        }
+
+        .audio-group audio {
+            display: block;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 800px) {
+            section {
+                padding: 0 1rem;
+            }
+        }
+
+        @media only screen and (max-width: 540px) {
+            .navbar nav {
+                display: grid;
+                row-gap: 1rem;
+                grid-template-columns: 1fr 1fr;
+                align-content: space-between;
+                justify-items: center;
+            }
+
+            .image-gallery,
+            .audio-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .image-group img {
+                border-width: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <h1>Trude Abelsen <span>&amp;</span> Jan Dahlen</h1> -->
+        <img src="images/trajada_header.jpg" class="logo" />
+    </header>
+
+    <section class="navbar">
+        <nav>
+            <a href="#pressemelding">Pressemelding</a>
+            <a href="#pressefoto">Bilder</a>
+            <a href="#demoer">Demoer</a>
+            <a href="#booking">Booking</a>
+            <a href="#nedlastinger">Nedlastinger</a>
+        </nav>
+    </section>
+
+    <section id="pressemelding">
+        <h2>TRAJADA - en ny duo innen norsk folk/country/americana, bestående av Jan Dahlen &amp; Trude
+            Abelsen</h2>
+
+        <p><strong>Jan Dahlen:</strong> sang, akustisk gitar, dobro og munnspill | <a
+                href="https://jandahlen.com">https://jandahlen.com</a></p>
+        <p><strong>Trude Abelsen:</strong> sang og akustisk gitar</p>
+
+        <p>JAN DAHLEN har en lang fartstid innen norsk americana og har gitt ut flere album på engelsk og norsk, med
+            både
+            egne låter og coverlåter. Han startet bandet Jan Dahlen & The Shotgun Riders i 1981 og ga ut live album fra
+            legendariske Club 7 i Oslo i 1983 med bl.a. Lynni Treekrem. Opp igjennom årene har han med ujevne mellomrom
+            gitt
+            ut flere album, som alle har fått god omtale.</p>
+
+        <p>TRUDE ABELSEN har også sunget og spilt i mange år uten at hun har gjort det til en profesjonell karriere. Hun
+            var ofte innslag på mange arrangementer i og rundt Alta i ungdomsårene. Studier og familieliv gjorde at
+            musikken
+            kom litt i bakevja, men er nå plukket fram igjen. Tidlig i 2024 hørte hun Jan Dahlen synge og spille, noe
+            hun
+            likte godt. Hun fremførte selv sanger av bl.a. Joni Mitchell og Jan Dahlen ble veldig imponert over hennes
+            tolkninger.</p>
+
+        <p>Etter hvert som de ble kjent med hverandre fant de ut at de hadde mange felles referanseartister innen
+            folk/country/americana – som f.eks. John Prine, Allison Krauss, Rodney Crowell, Blaze Foley, og Emmylou
+            Harris.
+            De bestemte seg for å starte duoen TRAJADA. De er nå klare for å spille live. Foreløpig har de et repertoar
+            bestående av noen av Dahlens sanger og coverlåter av bl.a. foran nevnte artister. En enkel demo på 4 låter
+            er
+            allerede laget, og planen er etter hvert å gi ut et album.</p>
+    </section>
+
+
+    <section id="pressefoto">
+        <h2>Bilder</h2>
+
+        <div class="image-gallery">
+            <div class="image-group">
+                <a href="/images/IMG_3114.JPG">
+                    <img src="/images/IMG_3114.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+
+            <div class="image-group">
+                <a href="/images/IMG_3115.JPG">
+                    <img src="/images/IMG_3115.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+
+            <div class="image-group">
+                <a href="/images/IMG_3120.JPG">
+                    <img src="/images/IMG_3120.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+
+            <div class="image-group">
+                <a href="/images/IMG_3123.JPG">
+                    <img src="/images/IMG_3123.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+
+            <div class="image-group">
+                <a href="/images/3505d9cd-346d-42ad-9642-7b577dc28b8c.JPG">
+                    <img src="/images/3505d9cd-346d-42ad-9642-7b577dc28b8c.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+            <div class="image-group">
+                <a href="/images/IMG_3113.JPG">
+                    <img src="/images/IMG_3113.JPG" alt="Trude Abelsen &amp; Jan Dahlen" />
+                </a>
+                <span class="caption">Foto: Raymond Mosken</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="demoer">
+        <h2>Demoer</h2>
+
+        <div class="audio-gallery">
+
+            <div class="audio-group">
+                <h3>Dont Toss Away</h3>
+                <p><a href="/filer/musikk/Trajada - Don't toss away.mp3" download>Last ned</a></p>
+                <audio preload="none" controls>
+                    <source src="/filer/musikk/Trajada - Don't toss away.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-group">
+                <h3>Ka i aill værden</h3>
+                <p><a href="/filer/musikk/Trajada - Ka i aill værden.mp3" download>Last ned</a></p>
+                <audio preload="none" controls>
+                    <source src="/filer/musikk/Trajada - Ka i aill værden.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-group">
+                <h3>Lucky One</h3>
+                <p><a href="/filer/musikk/Trajada - Lucky One.mp3" download>Last ned</a></p>
+                <audio preload="none" controls>
+                    <source src="/filer/musikk/Trajada - Lucky One.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-group">
+                <h3>Play me a Hank Song</h3>
+                <p><a href="/filer/musikk/Trajada - Play me a Hank Song.mp3" download>Last ned</a></p>
+                <audio preload="none" controls>
+                    <source src="/filer/musikk/Trajada - Play me a Hank Song.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Booking</h2>
+
+        <p>Ønsker du å booke oss for et arrangement eller bare ta kontakt?</p>
+
+        <ul>
+            <li>Telefon: +47 91375839</li>
+            <li>Epost: janeda25@gmail.com</li>
+        </ul>
+    </section>
+
+    <section id="nedlastinger">
+        <h2>Nedlastinger</h2>
+
+        <ul>
+            <li><a href="/filer/Trajada_Plakat_v5.pdf">Trajada Plakat (A3)</a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
